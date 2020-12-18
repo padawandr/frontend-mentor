@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/soft-reset.css" />
+    <link rel="stylesheet" href="styles/typography.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <link
+      rel="shortcut icon"
+      href="images/avatar256.png"
+      type="image/x-icon"
+    />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <section class="storage">
+      <div class="storage__container">
+        <header class="storage__header">
+          <img class="storage__logo" src="images/logo.svg" alt="fylo logo" />
+          <ul class="storage__list">
+            <li class="storage__button">
+              <img src="images/icon-document.svg" alt="select document" />
+            </li>
+            <li class="storage__button">
+              <img src="images/icon-folder.svg" alt="select folder" />
+            </li>
+            <li class="storage__button">
+              <img src="images/icon-upload.svg" alt="upload" />
+            </li>
+          </ul>
+        </header>
+
+        <div class="storage__details">
+          <div class="storage__info">
+            <p class="storage__text">
+              You’ve used <span class="storage__filled">815 GB</span> of your
+              storage
+            </p>
+            <div class="slider">
+              <input
+                class="slider__bar"
+                type="range"
+                name="slider"
+                id="slider"
+                value="81.5"
+              />
+              <label class="slider__limits" for="slider">
+                <span class="slider__min">0 GB</span>
+                <span class="slider__max">1000 GB</span>
+              </label>
+            </div>
+          </div>
+          <div class="storage__bubble">
+            <div class="storage__remaining">
+              <span class="storage__remaining-size">185</span>
+              <span class="storage__remaining-text">GB Left</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        class="attribution__mentor"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="attribution__dev"
+        href="https://www.github.com/padawandr"
+        target="_blank"
+        >padawandr</a
+      >.
+    </footer>
+  </body>
+</html>
