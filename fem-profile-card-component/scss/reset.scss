@@ -1,0 +1,17 @@
+html, body, div, span, p, a, img, strong, footer, section {
+	margin: 0;
+	padding: 0;
+  border: 0;
+  box-sizing: border-box;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+footer, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}

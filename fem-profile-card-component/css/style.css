@@ -1,0 +1,117 @@
+html, body, div, span, p, a, img, strong, footer, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+footer, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+strong {
+  color: #2d3248;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.attribution {
+  background: #2d3248;
+  bottom: 0;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 0 3px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.attribution .mentor,
+.attribution .dev {
+  color: #19a2ae;
+  font-weight: 700;
+  text-decoration: none;
+}
+.attribution .mentor:hover,
+.attribution .dev:hover {
+  color: #969696;
+}
+
+#profile {
+  align-items: center;
+  background: url("../img/bg-pattern-top.svg") top -600px left calc(-800px + 20vw) no-repeat, url("../img/bg-pattern-bottom.svg") bottom -600px right calc(-800px + 20vw) no-repeat, #19a2ae;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+@media screen and (min-width: 460px) {
+  #profile {
+    background-position-x: left calc(-800px + 40vw), right calc(-800px + 40vw);
+  }
+}
+#profile .card {
+  border-radius: 15px;
+  background: url("../img/bg-pattern-card.svg") no-repeat, white;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+  margin: 0 25px;
+  max-width: 350px;
+  width: 100%;
+}
+#profile .person {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  padding: 25px 25px 23px;
+}
+#profile .photo {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 62px 0 25px;
+}
+#profile .age {
+  color: #969696;
+  font-size: 1.8rem;
+  padding: 0 5px;
+}
+#profile .city {
+  color: #969696;
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 12px;
+  text-align: center;
+}
+#profile .details {
+  border-top: 1px solid rgba(150, 150, 150, 0.3);
+  border-top-color: rgba(150, 150, 150, 0.3);
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 30px 25px;
+}
+#profile .followers,
+#profile .likes,
+#profile .photos {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+#profile .followers span,
+#profile .likes span,
+#profile .photos span {
+  color: #969696;
+  letter-spacing: 0.15rem;
+  margin-top: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
