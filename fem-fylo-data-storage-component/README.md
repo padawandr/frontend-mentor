@@ -1,7 +1,7 @@
 # Fylo Data Storage Component
 > Frontend Mentor's Challenge #02
 
-[Live App](https://fem-fylo-data-storage-component.padawandr.vercel.app/)
+[Live Solution](https://fem-fylo-data-storage-component.padawandr.vercel.app/)
 
 ![](https://img.shields.io/badge/-made_with:-24292e?style=flat)  
 ![](https://img.shields.io/badge/-html-24292e?style=flat&logo=html5&logoColor=ff967f)
