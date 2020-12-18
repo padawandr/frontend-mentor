@@ -1,7 +1,7 @@
 # Profile Card Component
 > Frontend Mentor's Challenge #03
 
-[Live App](https://fem-profile-card-component.padawandr.vercel.app/)
+[Live Solution](https://fem-profile-card-component.padawandr.vercel.app/)
 
 ![](https://img.shields.io/badge/-made_with:-24292e?style=flat)  
 ![](https://img.shields.io/badge/-html-24292e?style=flat&logo=html5&logoColor=ff967f)
